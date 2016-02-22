@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-evernote",
+  "version": "1.0.0",
+  "description": "Eslint configuration in use at Evernote.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evernote/eslint-config-evernote"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "evernote"
+  ],
+  "author": "Ammar Khaku <akhaku@evernote.com>",
+  "license": "Apache-2.0"
+}
