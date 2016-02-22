@@ -12,6 +12,11 @@
     "eslintconfig",
     "evernote"
   ],
+  "peerDependencies": {
+    "eslint": "~1.4.1",
+    "eslint-plugin-evernote": "~1.0.0",
+    "eslint-plugin-react": "~3.6.3"
+  },
   "author": "Ammar Khaku <akhaku@evernote.com>",
   "license": "Apache-2.0"
 }
