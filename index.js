@@ -126,6 +126,9 @@ for (var ruleName in reactConfig.rules) {
 }
 
 module.exports = {
+  env: {
+    es6: true
+  },
   plugins: plugins,
   rules: rules
 };
