@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-evernote",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Eslint configuration in use at Evernote.",
   "main": "index.js",
   "repository": {
