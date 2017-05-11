@@ -1,11 +1,13 @@
 var reactRulesAvailable = true;
 try {
   require('eslint-plugin-react');
+  require('eslint-plugin-import');
 } catch (e) {
   reactRulesAvailable = false;
 }
-var plugins = !reactRulesAvailable ? [] : ['react'];
+var plugins = !reactRulesAvailable ? [] : ['import', 'react'];
 var rules = !reactRulesAvailable ? {} : {
+  'import/extensions': [2, 'never', {'svg': 'always'}],
   'react/display-name': 0,
   'react/forbid-prop-types': 0,
   'react/jsx-boolean-value': 0,
@@ -20,6 +22,7 @@ var rules = !reactRulesAvailable ? {} : {
   'react/jsx-sort-props': 0,
   'react/jsx-uses-react': 2,
   'react/jsx-uses-vars': 2,
+  'react/jsx-wrap-multilines': 2,
   'react/no-danger': 0,
   'react/no-did-mount-set-state': 2,
   'react/no-did-update-set-state': 2,
@@ -30,14 +33,14 @@ var rules = !reactRulesAvailable ? {} : {
   'react/prefer-es6-class': 0,
   'react/prop-types': 2,
   'react/react-in-jsx-scope': 2,
-  'react/require-extension': 2,
+  'react/require-extension': 0,
   'react/self-closing-comp': 2,
   'react/sort-comp': 2,
   'react/sort-prop-types': 2,
-  'react/wrap-multilines': 2
 };
 
 module.exports = {
   plugins: plugins,
-  rules: rules
+  rules: rules,
 };
+
