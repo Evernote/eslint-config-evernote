@@ -15,7 +15,8 @@
   "peerDependencies": {
     "eslint": "^2.8.0 || ^3.1.1",
     "eslint-plugin-evernote": "^1.0.0",
-    "eslint-plugin-react": "^5.0.1"
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^7.0.0"
   },
   "author": "Ammar Khaku <akhaku@evernote.com>",
   "license": "Apache-2.0"
