@@ -3,7 +3,7 @@
 This package contains eslint configuration used across multiple projects at Evernote.
 
 ## Requirements ##
-- eslint ^2.8.0 || ^3.1.1
+- eslint ^2.8.0 || ^3.1.1 || ^4.2.0
 - eslint-plugin-evernote ^1.0.0
 - eslint-plugin-import ^2.2.0
 - eslint-plugin-react ^7.0.0
