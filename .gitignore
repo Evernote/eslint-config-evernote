@@ -1,3 +1,7 @@
 node_modules
 .DS_Store
 
+# Since we only have peerDependencies, no lock files should be checked in.
+yarn.lock
+package-lock.json
+
